@@ -8,7 +8,8 @@ const links = [
     { href: '/', label: 'Home' },
     { href: '/movies', label: 'Movies' },
     { href: '/movies/tt4154796', label: 'Movie(Avengers)' },
-    { href: '/async', label: 'Async' }
+    { href: '/async', label: 'Async' },
+    { href: '/optimize', label: 'Optimize' }
 ];
 
 export default function Header() {
