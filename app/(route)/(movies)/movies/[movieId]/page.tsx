@@ -54,7 +54,7 @@ export default async function MovieDetails({
     const { movieId } = await params;
     const { plot } = await searchParams;
     await wait(2000);
-    throw new Error('뭔가 문제가 있어요..');
+    // throw new Error('뭔가 문제가 있어요..');
     const res = await fetch(
         `https://omdbapi.com/?apikey=7035c60c&i=${movieId}&plot=${plot || 'short'}`
     );
